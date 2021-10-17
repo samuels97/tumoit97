@@ -2,4 +2,4 @@ from django.shortcuts import render
 
 def index(request):
     context = {}
-    return render(request, "main/index.html", context)
+    return render(request, "bikin/index.html", context)
